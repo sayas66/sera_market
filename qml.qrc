@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>app/main.qml</file>
+        <file>app/components/controls/CPage.qml</file>
+        <file>app/constants/Colors.qml</file>
+        <file>app/constants/Fonts.qml</file>
+        <file>app/main.js</file>
+        <file>app/components/effects/CDropShadow.qml</file>
+        <file>app/screens/dashboard/DashboardScreen.qml</file>
+        <file>app/screens/dashboard/Dashboard.js</file>
+        <file>app/components/controls/Header/CHeader.qml</file>
+        <file>app/components/controls/Header/CHeaderTitle.qml</file>
+        <file>app/components/controls/Sidebar/CSidebar.qml</file>
+        <file>app/components/controls/Header/CHeaderButton.qml</file>
+        <file>assets/icons/Menu.png</file>
+        <file>app/constants/Icons.qml</file>
+        <file>assets/icons/Home.png</file>
+        <file>assets/icons/Settings.png</file>
+        <file>app/components/controls/Sidebar/CSidebarButton.qml</file>
+        <file>app/components/controls/CIcon.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>assets/fonts/Roboto-Black.ttf</file>
+        <file>assets/fonts/Roboto-BlackItalic.ttf</file>
+        <file>assets/fonts/Roboto-Bold.ttf</file>
+        <file>assets/fonts/Roboto-BoldItalic.ttf</file>
+        <file>assets/fonts/Roboto-Italic.ttf</file>
+        <file>assets/fonts/Roboto-Light.ttf</file>
+        <file>assets/fonts/Roboto-LightItalic.ttf</file>
+        <file>assets/fonts/Roboto-Medium.ttf</file>
+        <file>assets/fonts/Roboto-MediumItalic.ttf</file>
+        <file>assets/fonts/Roboto-Regular.ttf</file>
+        <file>assets/fonts/Roboto-Thin.ttf</file>
+        <file>assets/fonts/Roboto-ThinItalic.ttf</file>
+        <file>app/components/controls/Sidebar/CSidebarList.qml</file>
+        <file>assets/icons/Opened Folder.png</file>
+        <file>assets/icons/Product.png</file>
+        <file>assets/icons/Banknotes.png</file>
+        <file>assets/icons/Initiate Money Transfer.png</file>
+        <file>assets/icons/Money Bag.png</file>
+        <file>assets/icons/Request Money.png</file>
+        <file>app/core/Routes.qml</file>
+        <file>app/components/controls/Sidebar/CSidebarTitle.qml</file>
+    </qresource>
+</RCC>
