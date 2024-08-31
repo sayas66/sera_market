@@ -40,5 +40,8 @@
         <file>assets/icons/Request Money.png</file>
         <file>app/core/Routes.qml</file>
         <file>app/components/controls/Sidebar/CSidebarTitle.qml</file>
+        <file>app/screens/dashboard/components/CardIndication.qml</file>
+        <file>app/screens/dashboard/components/CardIndicationList.qml</file>
+        <file>app/screens/dashboard/components/MoneyGraph.qml</file>
     </qresource>
 </RCC>

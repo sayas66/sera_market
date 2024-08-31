@@ -35,6 +35,7 @@ ApplicationWindow {
     Loader {
         id: mainLoader
         anchors.fill: parent
+        asynchronous: true
     }
 
     Component.onCompleted: {

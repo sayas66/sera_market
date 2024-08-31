@@ -1,19 +1,37 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import QtCharts
+
+import com.omm.constants
 
 import '../../components/controls'
+import 'components'
 
 CPage {
     id: root
 
-    property string text
+    contentItem: ScrollView {
+        id: scrollView
 
-    contentItem: Pane {
-        background: null
+        Pane {
+            width: scrollView.width
+            background: null
+            padding: 0
 
-        Label {
-            text: 'dashboard page ' + root.text
+            Column {
+                width: parent.width
+                spacing: 30
+
+                CardIndicationList {
+                    width: parent.width
+                }
+
+                MoneyGraph {
+                    width: parent.width
+                    anchors.margins: 0
+                }
+            }
         }
     }
 }

@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QDebug>
-#include <QGuiApplication>
+#include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QStringList>
 #include <QFontDatabase>
@@ -18,7 +18,7 @@ namespace Initialization
  * font family : Manrope
  */
 [[maybe_unused]]
-static void initializeFont(QGuiApplication &app)
+static void initializeFont(QApplication &app)
 {
     QStringList fonts {
         ":/assets/fonts/Roboto-Black.ttf",
@@ -46,7 +46,9 @@ static void initializeFont(QGuiApplication &app)
     }
 
     QFont font("Roboto");
-    font.setPointSize(12);
+#ifdef Q_OS_WINDOWS
+    font.setPointSize(8);
+#endif
     app.setFont(font);
 }
 

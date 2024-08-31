@@ -18,7 +18,7 @@ Column {
     }
 
     Label {
-        text: Routes.mainSubtitle ? Routes?.mainSubtitle : application.name
+        text: Routes.mainSubtitle ? Routes?.mainSubtitle : application?.name
         font.pixelSize: 10
         color: '#666666'
     }
